@@ -1,0 +1,43 @@
+SATELLITE : "Un site avec des instru (:"
+
+
+
+
+Choisir une Icône Xou pas
+
+Un arrière plan imagé en haute définition ou un dégradée de couleur 
+
+Créer une barre de navigation 
+Choisir un logo pour la barre de navigation ou pas
+
+Créer les rubriques suivantes :
+
+- Instrumentale (OST, binguy ...)
+- Rap Francais
+- Musique Camerounaise (eboa lotin, manu dibango, tayc)
+
+
+Chaque rubrique posèdera un bouton, qui nous mènera à une autre page dans le site, dans lesquelles les instru figureront.
+
+Empiler les musiques les unes à la suite des autres, avec toujours le titre au dessus de chaque zik.
+
+
+Créer une div class avec les instru du moment (max 3) :
+
+
+Un pied de page de couleur  
+Avec mes informations personnelle .
+En savoir plus sur l'histoire du site
+A propos de nous 
+tarif
+Date de création
+
+
+Délire JS : 
+
+Quand la souris pointe une rubrique, celle-ci change de couleur (orange)
+mettre une musiques
+
+
+
+

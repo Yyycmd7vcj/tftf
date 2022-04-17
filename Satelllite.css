@@ -1,0 +1,187 @@
+*{
+    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+
+/* DEBUT NAVBAR */
+
+nav{
+    
+    color: whitesmoke;
+    margin-left: 0px ;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: max(3vw,25px);
+    align-items: center;
+    height: 17px;
+    
+}
+
+a[href="Satellite.html"]{
+
+    background:-webkit-linear-gradient(top, rgb(23, 41, 142) 30%, #49279f 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+
+}
+
+.Titre{
+   
+    margin-left: 40px;
+    font-size: max(3vw,32.5px);
+    
+}
+
+hr{
+    
+    width: 78%;
+    background-color: whitesmoke;
+}
+
+
+.Rubriques{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: 23px;
+    font-size: 20px;
+    
+}
+
+
+.drill:hover{
+
+    transform: scale(1.15);
+    transition: 0.6s;
+  
+
+    background:-webkit-linear-gradient(top, rgb(150, 107, 73) 40%, #c47214b4 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+.ost:hover{
+
+    transform: scale(1.15);
+    transition: 0.6s;
+  
+
+    background:-webkit-linear-gradient(top, rgb(150, 107, 73) 40%, #c47214b4 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+.afro:hover{
+
+    transform: scale(1.15);
+    transition: 0.6s;
+  
+
+    background:-webkit-linear-gradient(top, rgb(150, 107, 73) 40%, #c47214b4 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+
+.kickage:hover{
+
+    transform: scale(1.15);
+    transition: 0.6s;
+  
+
+    background:-webkit-linear-gradient(top, rgb(150, 107, 73) 40%, #c47214b4 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+
+.mélo:hover{
+
+    transform: scale(1.15);
+    transition: 0.6s;
+  
+
+    background:-webkit-linear-gradient(top, rgb(150, 107, 73) 40%, #c47214b4 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+
+/* FIN NAVBAR */
+
+/* DEBUT DU BODY */
+
+
+.texteMilieu{
+
+    text-align: center;
+    
+}
+
+
+
+body{
+    
+    background: url(saté.jpg) no-repeat fixed center/cover;
+    
+}
+
+/* FIN DU BODY */
+
+/* DEBUT PIED DE PAGE  */
+
+
+
+.pied{
+
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 150px;
+    border-radius: 9px;
+
+}
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ContactDev{
+
+    margin-left: 25px;
+    
+}
+
+
+.création{
+
+    margin-right: 25px ;
+}
+
+/* FIN PIED DE PAGE */
+
+/* IMPORTATION JAVASCRIPT */
+
+
+

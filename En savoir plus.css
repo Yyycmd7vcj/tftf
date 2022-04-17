@@ -1,0 +1,60 @@
+*{
+
+    color: whitesmoke;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+    
+    background: url(saté.jpg) no-repeat fixed center/cover;
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+.QUI{
+    
+    margin: auto;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    max-width: 1000px;
+    min-width: 450px;
+
+
+    height: 100%;
+    max-height: 800px;
+    min-height: 100px;
+    
+}
+
+.texte{
+
+    margin-left: 25px;
+
+    width: 70%;
+    max-width: 800px;
+    min-width: 300px;
+
+}
+
+img{
+
+    background: no-repeat;
+    margin-right: 24px;
+    border-radius: 22px;
+
+    width: 90%;
+    max-width: 800px;
+    min-width: 100px;
+  
+}
+

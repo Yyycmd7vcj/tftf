@@ -1,0 +1,77 @@
+*{
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    
+    background: url(saté.jpg) no-repeat fixed center/cover;
+
+}
+
+
+/* DEBUT DES FORMULES */
+
+
+.Sepa{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* LA FORMULE 1 */
+
+.Arrangement1{
+    margin-left: 55px;
+    font-size: 3.5vmax;
+    font-size: 2.5vmin;
+}
+
+.Basique{
+    margin-left: 65px;
+    border-radius: 20px;
+    
+    height: 50%;
+    max-height: 95%;
+    min-height: 80%;
+    
+    width: 45%;
+    max-width: 450px;
+    min-width: 200px;
+
+
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+
+}
+
+/* La FORMULE 2 */
+
+.Arrangement2{
+    margin-left: 55px;
+    font-size: 2.5vmax;
+    font-size: 2.5vmin;
+}
+
+.Offre{
+
+    margin-right: 400px;
+    border-radius: 20px;
+    
+    height: 50%;
+    max-height: 500px;
+    min-height: 80%;
+    
+    width: 45%;
+    max-width: 350px;
+    min-width: 200px;
+
+
+    background-image: radial-gradient( circle 510px at 5.2% 56.6%,  rgb(192, 100, 35) 0%, rgb(179, 26, 26) 97.5% );
+
+}

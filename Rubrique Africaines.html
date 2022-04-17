@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icône satellite.webp">
+    <link rel="stylesheet" href="Rubrique Africaines.css">
+
+    <title>Satellite - Afro</title>
+    <h1>La liste des instru afro</h1>
+</head>
+
+<body>
+    <br><br>
+
+    <div class="Musique">
+        
+        <div class="Titre">
+            <br>
+            <h2>Instru Guinéenne - (1) </h2>
+            
+        </div>
+
+        <div class="logoPlay">
+           <br>
+            <img src="Play.png" id="bouton">
+
+        </div>
+
+
+
+        <audio id="Son1">
+            
+            <source src="MHD - Bravo (Instrumental).mp3" type="audio/mp3" >
+            
+        </audio>
+
+        <!-- Préciser toujours que le type de l'audio est mp3 -->
+    
+    </div>    
+
+    <div class="Musique">
+
+        <div class="Titre">
+            <br>
+            <h2>Instru Congolaise - (1) </h2>
+            
+        </div>
+
+        <div class="logoPlay">
+           <br>
+            <img src="Play.png" id="bouton2">
+
+        </div>
+
+
+
+        <audio id="Son2">
+            
+            <source src="instru_Ohplai .mp3" type="audio/mp3" >
+            
+        </audio>
+
+
+    </div>
+        
+
+
+         <!-- DEBUT DU JAVASCRIPT -->
+
+    <script>
+
+        const m1 = document.getElementById('Son1');
+        const bouton = document.getElementById('bouton');
+        const m2 = document.getElementById('Son2')
+        const bouton2 = document.getElementById('bouton2');
+
+        // MUSIQUE 1 - JS
+
+        bouton.addEventListener('click', () => {
+
+            if (m1.paused) {
+
+                m1.play();
+                bouton.src = "Pause.png";
+
+            } else {
+
+                m1.pause();
+                bouton.src = "Play.png";
+            }
+
+        })
+
+        // MUSIQUE 2 - JS
+
+        bouton2.addEventListener('click', () => {
+
+            if (m2.paused) {
+
+                m2.play();
+                bouton2.src = "Pause.png";
+
+            } else {
+
+                m2.pause();
+                bouton2.src = "Play.png";
+            }
+
+        })
+
+
+        
+
+
+
+
+    </script>
+
+    <!-- Tu cibles l'ID de la musique et du bouton -->
+    <!-- T'ajoute un évènement click au bouton -->
+    <!-- Tu crée la condition du bouton : -->
+
+   
+</body>
+</html>

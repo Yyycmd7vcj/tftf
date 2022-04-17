@@ -1,0 +1,73 @@
+*{
+
+    color: whitesmoke;
+
+}
+
+h1{
+
+    text-align: center;
+    font-size: max(30px,20px);
+
+}
+
+/* CORPS DE LA PAGE */
+
+body{
+
+    background: url(saté.jpg) no-repeat fixed center/cover;
+    margin-left: 35px;
+
+}
+
+/* PREMIERE PROD */
+
+.Musique{
+
+    display: flex;
+    background-image: radial-gradient( circle 510px at 5.2% 51.6%,  rgb(220, 34, 34) 0%, rgb(228, 130, 50) 94.5% );
+    margin: 30px;
+    margin-right: 100px;
+    height: 90px;
+    width: 50%;
+    max-width: 500px;
+    min-width: 360px;
+    border-radius: 50px;
+
+}
+
+.Titre{
+
+    margin-left: 30px;
+    min-height: 10px;
+
+}
+
+.logoPlay{
+
+    margin-left: 30px;
+
+}
+
+h2{
+    
+    font-size: max(20px,14px);
+
+}
+
+img{
+
+    cursor: pointer;
+    border: solid;
+    border-radius: 60px;
+
+}
+
+img:hover{
+
+    transform: scale(1.15);
+
+}
+
+
+
